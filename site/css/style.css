@@ -1,3 +1,27 @@
+/* Styling */
+
+/* Fonts (From fonts.google.com) Inter/Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 h1 {
     text-align: center;
+    color: white;
+    font-family: Inter, sans-serif;
+    font-weight: 20;
+    font-size: 50px;
+    text-shadow: 0 0 35px white;
+}
+
+/* Body */
+body {
+    background-color: rgb(30, 30, 30);
+}
+
+/* Paragraph */
+p {
+    text-align: center;
+    font-family: Inter, sans-serif;
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 0 20px white;
 }
