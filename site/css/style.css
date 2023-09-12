@@ -3,24 +3,47 @@
 /* Fonts (From fonts.google.com) Inter/Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-h1 {
-    text-align: center;
-    color: white;
-    font-family: Inter, sans-serif;
-    font-size: 50px;
-    text-shadow: 0 0 35px white;
-}
-
-/* Body */
 body {
-    background-color: rgb(30, 30, 30);
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(ellipse at bottom,#123, #111);
 }
 
-/* Paragraph */
-p {
+h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-family: Inter, sans-serif;
     color: white;
-    font-size: 20px;
-    text-shadow: 0 0 20px white;
+    font-weight: 20;
+    text-shadow: 0 0 25px white;
+}
+
+.strange-side-effects {
+    background: #233142;
+    width: 200px;
+    height: 100px;
+    border: rgba(26, 26, 26, 0);
+    border-radius: 5px;
+    font-family: Inter, sans-serif;
+    font-size: 35px;
+    color: white;
+    transition: 0.5s ease-out;
+}
+
+.strange-side-effects:hover {
+    transition: 0.5s ease-out;
+    background: #364154;
+}
+
+.strange-side-effects:active {
+    transition: 0.5s ease-out;
+    background: #535673;
+}
+
+.game {
+    width: 1000px;
+    height: 1000px;
 }

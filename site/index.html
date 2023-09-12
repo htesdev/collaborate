@@ -1,71 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Gaming Website</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<h1>Basic website setup. Go crazy Ishan!</h1>
-
-<p>I already got it setup with an external CSS file because CSS in the metadata section is terrible...</p>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Gaming Website</title>
-    <style>
-        body {
-            background-color: #000;
-            color: #fff;
-            font-family: Arial, sans-serif;
-        }
-        
-        h1 {
-            text-align: center;
-            font-size: 48px;
-            text-shadow: 2px 2px 4px blue;
-        }
-        
-        p {
-            text-align: center;
-            font-size: 24px;
-            text-shadow: 2px 2px 4px blue;
-        }
-        
-        .glow {
-            font-size: 36px;
-            color:blue;
-            text-shadow: 0 0 10px blue;
-            animation: glowing 2s infinite;
-        }
-        
-        @keyframes glowing {
-            0% {
-                color: white;
-                text-shadow: 0 0 10px gray;
-            }
-            50% {
-                color: white;
-                text-shadow: gray;
-            }
-            100% {
-                color: white;
-                text-shadow: 0 0 10px gray;
-            }
-        }
-    </style>
-</head>
-<body>
-    <h1>Welcome to the Gaming Website!</h1>
-    <p>Check out our collection of awesome games:</p>
-    <ul>
-        <li><iframe src="/game-assets/subwaysurfersstorage/subway-surfers-berlin/game/iframe/" class="glow"><b>Subway Surfers</b></iframe></li>
-        <li><a href="templerun.html" class="glow"><b>Temple Run</b></a></li>
-        <li><a href="minecraft.html" class="glow"><b>Minecraft</b></a></li>
-    </ul>
-<h1>By Seth & Ishan</h1>
+<h1>Unblocked Games</h1>
+<button onclick="side_effects_fire()" class="strange-side-effects">Strange Side Effects</button>
+<h3>By Seth & Ishan</h3>
+<script>
+    function side_effects_fire() {
+        // Load the Strange Side Effects Page
+        location.href='sideeffects.html'
+    }
+</script>
 </body>
 </html>
