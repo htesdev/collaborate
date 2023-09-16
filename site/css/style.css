@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
     text-shadow: 0 0 25px white;
 }
 
-.strange-side-effects {
+.surfers {
     background: #233142;
     width: 250px;
     height: 100px;
@@ -34,12 +34,12 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.5s ease-out;
 }
 
-.strange-side-effects:hover {
+.surfers:hover {
     transition: 0.5s ease-out;
     background: #364154;
 }
 
-.strange-side-effects:active {
+.surfers:active {
     transition: 0.5s ease-out;
     background: #535673;
 }
