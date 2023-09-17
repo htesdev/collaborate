@@ -44,6 +44,28 @@ h1, h2, h3, h4, h5, h6 {
     background: #535673;
 }
 
+.minecraft-btn {
+    background: #233142;
+    width: 250px;
+    height: 100px;
+    border: rgba(26, 26, 26, 0);
+    border-radius: 5px;
+    font-family: Inter, sans-serif;
+    font-size: 35px;
+    color: white;
+    transition: 0.5s ease-out;
+}
+
+.minecraft-btn:hover {
+    transition: 0.5s ease-out;
+    background: #364154;
+}
+
+.minecraft-btn:active {
+    transition: 0.5s ease-out;
+    background: #535673;
+}
+
 .game {
     width: 1200px;
     height: 800px;
