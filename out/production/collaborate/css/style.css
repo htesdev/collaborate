@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     transition: 0.5s ease-out;
 }
-.geometry-btn {
+.geometry {
     background: #233142;
     width: 250px;
     height: 100px;
@@ -54,6 +54,15 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.5s ease-out;
     background: #535673;
 }
+
+.geometry:hover {
+    transition: 0.5s ease-out;
+    background: #364154;
+}
+
+.geometry:active {
+    transition: 0.5s ease-out;
+    background: #535673;
 
 .minecraft-btn {
     background: #233142;
