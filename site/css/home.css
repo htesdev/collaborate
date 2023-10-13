@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;500;600;700&family=Varela+Round&display=swap');
+
+body {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: darkblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    height: 100vh;
+}
+*{
+    font-family: 'Poppins', Verdana;
+}
+
+.main {
+    height: calc(100vh - 60px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.main h1 {
+    opacity: 0;
+    animation: introShort 0.5s cubic-bezier(.77, 0, .175, 1) forwards;
+    animation-delay: 1s;
+    text-align: center;
+    color: white;
+    margin-top: -5px;
+    margin-bottom: -30px;
+    font-size: 50px;
+    filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.4));
+}
+
+
+h2 {
+    color: white;
+    font-size: 30px;
+}
+
+@keyframes intro {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+        filter: blur(15px);
+    } to {
+          opacity: 1;
+      }
+}
+
+@keyframes introShort {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+        filter: blur(15px);
+    } to {
+          opacity: 1;
+      }
+}
+
+h2 {
+    opacity: 0;
+    animation: introShort 0.5s cubic-bezier(.77, 0, .175, 1) forwards;
+    animation-delay: 1s;
+}
+
+@media screen and (max-width: 600px) {
+    .desc {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 0.5rem;
+    }
+}
