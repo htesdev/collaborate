@@ -27,7 +27,7 @@ body {
 }
 .main h1 {
     opacity: 0;
-    animation: introShort 0.5s cubic-bezier(.77, 0, .175, 1) forwards;
+    animation: intro 1s cubic-bezier(.77, 0, .175, 1) forwards;
     animation-delay: 1s;
     text-align: center;
     color: white;
