@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;500;600;700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
     top: 0;
@@ -11,9 +11,11 @@ body {
     background-size: cover;
     backdrop-filter: blur(10px);
     height: 100vh;
+    font-family: 'Inter', Verdana;
 }
-*{
-    font-family: 'Poppins', Verdana;
+
+.logo {
+    width: 200px;
 }
 
 .main {
@@ -26,6 +28,7 @@ body {
     text-align: center;
 }
 .main h1 {
+    font-family: 'Outfit', sans-serif;
     opacity: 0;
     animation: intro 1s cubic-bezier(.77, 0, .175, 1) forwards;
     animation-delay: 1s;
