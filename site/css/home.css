@@ -11,7 +11,12 @@ body {
     background-size: cover;
     backdrop-filter: blur(10px);
     height: 100vh;
-    font-family: 'Inter', Verdana;
+    font-family: 'Inter', sans-serif;
+    font-weight: 10px;
+}
+
+* {
+
 }
 
 .logo {
